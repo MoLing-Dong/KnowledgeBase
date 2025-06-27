@@ -10,8 +10,6 @@
 | VS Code Remote WSL 插件 | ✅    | 在 VS Code 中搜索插件 “**Remote - WSL**” 并安装                              |
 | WSL 已启用               | ✅    | 安装 Ubuntu 子系统，例如：`wsl --install -d Ubuntu`                          |
 
----
-
 ## ✅ 二、WSL 中快速启动 VS Code 的方法
 
 ### 方法一：在 WSL 终端中使用 `code .`
@@ -44,9 +42,7 @@ source ~/.bashrc
 
 替换为你自己的 Windows 用户路径。然后重新尝试 `code .`。
 
----
-
-## ✅ 三、设置一个命令别名让启动更快（可选）
+✅ 三、设置一个命令别名让启动更快（可选）
 
 你可以设置一个简短别名，例如 `vsc`：
 
@@ -62,8 +58,6 @@ vsc
 ```
 
 即可打开当前目录到 VS Code。
-
----
 
 ## ✅ 四、在 Windows 桌面添加“一键打开某个 WSL 工程”的快捷方式（进阶）
 
@@ -84,8 +78,6 @@ vsc
    ```
 
 3. 命名为如“Open AiTools in VS Code”
-
----
 
 ## ✅ 五、通过 `.vscode/settings.json` 自定义 WSL 启动配置（项目内）
 

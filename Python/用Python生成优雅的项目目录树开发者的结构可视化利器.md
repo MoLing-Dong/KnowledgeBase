@@ -3,7 +3,7 @@
 
 > 刚接手新项目一脸懵？文档里的目录结构总是过时？今天手把手教你用 30 行 Python 代码打造智能目录树生成器，自动过滤.git/venv/node_modules 等干扰项！
 
----
+
 
 ## 🔥 痛点场景：我们为什么需要它？
 
@@ -12,7 +12,7 @@
 - 代码审查时：在`__pycache__`和`target`文件夹里大海捞针
 - 分享开源项目：想让别人一眼看懂你的精妙设计，却被开发环境文件干扰
 
----
+
 
 ## 🚀 核心功能：我的小工具能做什么？
 
@@ -74,7 +74,7 @@ GenealogyCore
 ✅ **跨平台支持**\
 Windows/macOS/Linux 通吃！
 
----
+
 
 ## 🛠️ 实现原理：代码里藏了哪些黑科技？
 
@@ -108,7 +108,7 @@ def generate_tree(directory, indent=""):
 - `os.path.basename()`提取纯净目录名
 - 递归时传递缩进量保持层级关系
 
----
+
 
 ## 💡 高级用法：这样用更高效
 
@@ -129,7 +129,7 @@ def generate_tree(directory, indent=""):
     web = coverage, .next
     ```
 
----
+
 
 ## 🌟 GitHub 完整源码
 
@@ -142,7 +142,7 @@ def generate_tree(directory, indent=""):
 - 包含单元测试用例
 - 详细的类型注解
 
----
+
 
 ## 🎯 技术总结
 
@@ -163,7 +163,7 @@ def generate_tree(directory, indent=""):
 }
 ```
 
----
+
 
 **互动话题**：\
 你在项目中遇到过哪些奇葩的目录结构？快来评论区吐槽！🚀
