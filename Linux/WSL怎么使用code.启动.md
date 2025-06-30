@@ -31,12 +31,17 @@ code .
 ```bash
 # 安装 VS Code 命令行启动器
 export PATH="$PATH:/mnt/c/Users/你的用户名/AppData/Local/Programs/Microsoft VS Code/bin"
+# 或者
+export PATH="$PATH:/mnt/c/Programs/Microsoft VS Code/bin"
 ```
 
 或者加到你的 `~/.bashrc` 中：
 
 ```bash
 echo 'export PATH="$PATH:/mnt/c/Users/你的用户名/AppData/Local/Programs/Microsoft VS Code/bin"' >> ~/.bashrc
+# 或者
+echo 'export PATH="$PATH:/mnt/c/Programs/Microsoft VS Code/bin"' >> ~/.bashrc
+#最后
 source ~/.bashrc
 ```
 
