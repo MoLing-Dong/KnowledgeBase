@@ -1,4 +1,4 @@
-# WSL 如何配置下快速启动 VS Code
+# 第三方Shell客户端链接WSL 如何快速启动VScode
 
 ## ✅ 一、前提条件
 
@@ -24,14 +24,14 @@ code .
 * `code` 会自动通过 WSL 通道启动 Windows 上的 VS Code 并进入该 WSL 环境；
 * 第一次执行时可能需要初始化 VS Code Server。
 
-### 如果 `code` 命令找不到？
+### 如果是第三方的Shell终端 `code` 命令找不到？
 
 请执行：
 
 ```bash
 # 安装 VS Code 命令行启动器
 export PATH="$PATH:/mnt/c/Users/你的用户名/AppData/Local/Programs/Microsoft VS Code/bin"
-# 或者
+# 例如
 export PATH="$PATH:/mnt/c/Programs/Microsoft VS Code/bin"
 ```
 
@@ -39,7 +39,7 @@ export PATH="$PATH:/mnt/c/Programs/Microsoft VS Code/bin"
 
 ```bash
 echo 'export PATH="$PATH:/mnt/c/Users/你的用户名/AppData/Local/Programs/Microsoft VS Code/bin"' >> ~/.bashrc
-# 或者
+# 例如
 echo 'export PATH="$PATH:/mnt/c/Programs/Microsoft VS Code/bin"' >> ~/.bashrc
 #最后
 source ~/.bashrc
@@ -95,18 +95,3 @@ vsc
 }
 ```
 
----
-
-## 🧩 提示
-
-* 如果你需要从 Windows 打开任意 WSL 目录，也可以在地址栏输入：
-
-  ```
-  \\wsl$\Ubuntu\home\moling\AITools
-  ```
-
-  然后在资源管理器右键点击“在 VS Code 中打开”。
-
----
-
-是否希望我为你生成一个完整的一键快捷方式命令或 `.bashrc` 自动启动 VS Code 的配置？也可以继续问我有关 VS Code + WSL 的调试、Python 环境配置等内容。
