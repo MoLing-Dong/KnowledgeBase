@@ -89,12 +89,6 @@ CC Switch 是目前最流行的 Claude Code 配置管理工具之一，支持：
 
 Windows / macOS / Linux 都支持。
 
-**命令行安装：**
-
-```bash
-npm install -g cc-switch
-```
-
 **桌面应用安装：**
 
 访问官网下载对应平台的安装包。
@@ -102,7 +96,7 @@ npm install -g cc-switch
 相关链接：
 
 - [CC Switch GitHub](https://github.com/farion1231/cc-switch)
-- [CC Switch 官网](https://cc-switch.cc/)
+- [CC Switch 官网](https://ccswitch.io/)
 
 ---
 
@@ -110,11 +104,6 @@ npm install -g cc-switch
 
 安装完成后直接运行：
 
-```bash
-cc-switch
-```
-
-或者打开桌面应用。
 
 首次启动后：
 
@@ -147,7 +136,6 @@ CC Switch 内置了大量 Provider 预设，包括：
 * Anthropic 官方
 * 各类国内中转 API
 
-并支持运行时热切换，无需重启 Claude Code。
 
 ## 第二步：三条路进入 Claude Code
 
